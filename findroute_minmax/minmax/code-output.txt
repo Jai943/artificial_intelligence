@@ -1,0 +1,123 @@
+code: 
+import time
+
+    
+    start = time.time()
+    
+   -------body-------
+
+    end = time.time()
+    print("one-move mode: time-taken", end-start)
+
+---------------------------------------------------------------------------
+
+output: _______________________one-move(mode)____________________________
+
+(base) jaichandra@Jais-MacBook-Pro task_2 % python maxconnect4.py one-move input1.txt output.txt 3 
+
+MaxConnect-4 game
+
+Game state before move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+Move no. 1: Player 1, column 1
+
+Game state after move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 1 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+('one-move mode: time-taken', 0.006715059280395508)
+
+_________________________________________________________________________________________________
+
+please find time taken in one - move mode  ----- 0.006
+_________________________________________________________________________________________________
+
+
+
+
+output:________________________interactive(mode)_____________________________________________________
+
+
+(base) jaichandra@Jais-MacBook-Pro task_2 % python maxconnect4.py interactive input1.txt computer-next 3MaxConnect-4 game
+Game state before move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+
+
+Move no. 1: Player 2, column 1
+
+Game state after move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 2 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+('player-2time :', 0.006860971450805664)
+Choose a column to drop your piece - available columns [1-7] : 3
+
+
+Move no. 2: Player 1, column 3
+
+Game state after move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 2 0 1 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+('player-1time :', 6.854522943496704)
+
+
+Move no. 3: Player 2, column 1
+
+Game state after move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 2 0 0 0 0 0 0 | 
+ | 2 0 1 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+('player-2time :', 0.011998891830444336)
+Choose a column to drop your piece - available columns [1-7] : 
+
+_________________________________________________________________________________________________
+
+
+please find time taken for move of player 1 and player 2 

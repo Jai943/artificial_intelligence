@@ -1,0 +1,155 @@
+
+MaxConnect-4 game
+
+Game state before move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+
+
+Move no. 1: Player 1, column 1
+
+Game state after move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 1 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+('one-move mode: time-taken', 0.00263214111328125)
+python maxconnect4.py one-move input1.txt output.txt 1  0.01s user 0.03s system 46% cpu 0.086 total
+(base) jaichandra@Jais-MacBook-Pro task_2 % time python maxconnect4.py one-move input1.txt output.txt 2
+
+MaxConnect-4 game
+
+Game state before move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+
+
+Move no. 1: Player 1, column 1
+
+Game state after move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 1 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+('one-move mode: time-taken', 0.005290985107421875)
+python maxconnect4.py one-move input1.txt output.txt 2  0.02s user 0.02s system 55% cpu 0.071 total
+(base) jaichandra@Jais-MacBook-Pro task_2 % time python maxconnect4.py one-move input1.txt output.txt 3
+
+MaxConnect-4 game
+
+Game state before move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+
+
+Move no. 1: Player 1, column 1
+
+Game state after move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 1 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+('one-move mode: time-taken', 0.007795095443725586)
+python maxconnect4.py one-move input1.txt output.txt 3  0.02s user 0.02s system 57% cpu 0.074 total
+
+(base) jaichandra@Jais-MacBook-Pro task_2 % time python maxconnect4.py one-move input1.txt output.txt 32
+
+MaxConnect-4 game
+
+Game state before move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+
+
+Move no. 1: Player 1, column 7
+
+Game state after move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 1 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+('one-move mode: time-taken', 0.0662999153137207)
+
+(base) jaichandra@Jais-MacBook-Pro task_2 % time python maxconnect4.py one-move input1.txt output.txt 33
+
+MaxConnect-4 game
+
+Game state before move:
+ -----------------
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ | 0 0 0 0 0 0 0 | 
+ -----------------
+Score: Player 1 = 0, Player 2 = 0
+
+Traceback (most recent call last):
+  File "maxconnect4.py", line 153, in <module>
+    main(sys.argv)
+  File "maxconnect4.py", line 149, in main
+    oneMoveGame(currentGame,argv[4]) # Be sure to pass any other arguments from the command line you might need.
+  File "maxconnect4.py", line 20, in oneMoveGame
+    move = mp._decision_()
+  File "/Users/jaichandra/Desktop/projectAI/Task_2/Minimax.py", line 23, in _decision_
+    mc = mp[a]
+IndexError: list index out of range
+python maxconnect4.py one-move input1.txt output.txt 33  0.08s user 0.02s system 76% cpu 0.133 total
+(base) jaichandra@Jais-MacBook-Pro task_2 % time python maxconnect4.py one-move input1.txt output.txt 1 
